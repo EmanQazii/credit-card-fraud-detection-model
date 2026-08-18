@@ -135,25 +135,32 @@ A gradient boosting algorithm that builds decision trees sequentially to minimiz
 ## Project Structure
 
 credit-card-fraud-detection/
-|
-+-- data/
-|   +-- creditcard.csv
-|
-+-- notebooks/
-|   +-- credit_card_fraud_detection.ipynb
-|
-+-- models/
-|   +-- random_forest.pkl
-|   +-- xgboost.pkl
-|   +-- amount_scaler.pkl
-|
-+-- outputs/
-|   +-- [various PNG and CSV files]
-|
-+-- README.md
-+-- requirements.txt
-+-- .gitignore
-
+│
+├── data/
+│   └── creditcard.csv
+│
+├── notebooks/
+│   └── credit_card_fraud_detection.ipynb
+│
+├── models/
+│   ├── random_forest.pkl
+│   ├── xgboost.pkl
+│   └── amount_scaler.pkl
+│
+├── outputs/
+│   ├── class_distribution.png
+│   ├── amount_distribution.png
+│   ├── time_distribution.png
+│   ├── smote_distribution.png
+│   ├── rf_confusion_matrix.png
+│   ├── xgb_confusion_matrix.png
+│   ├── model_comparison.png
+│   ├── model_comparison.csv
+│   └── rf_feature_importance.png
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
 ---
 
 ## Installation & Setup
