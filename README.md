@@ -134,6 +134,7 @@ A gradient boosting algorithm that builds decision trees sequentially to minimiz
 
 ## Project Structure
 
+```text
 credit-card-fraud-detection/
 │
 ├── data/
@@ -161,6 +162,7 @@ credit-card-fraud-detection/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 ---
 
 ## Installation & Setup
